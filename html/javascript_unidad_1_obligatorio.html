@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Javascript - Unidad 1</title>
+        <style>
+            main, section {
+                text-align: center;
+            }
+            main h1 {
+                text-transform: uppercase;
+            }
+            section p {
+                margin: 0px;
+                font-size: 70px;
+                color: royalblue;
+            }
+            section pre {
+                font-family: 'Courier New', Courier, monospace;
+                text-align: left;
+                padding: 10px;
+                background-color: brown;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Javascript - Unidad 1</h1>
+            <h2>Resolución actividad obligatoria</h2>
+        </main>
+        <section>
+            <h3>El resultado de la suma de las dos variables es:</h3>
+            <p id="resultado"></p>
+        </section>
+        <section>
+            <pre>
+                <h3>Código resolución</h3>
+let numA = 40
+let numB = 16
+let sum = numA + numB
+document.getElementById("resultado").innerHTML = sum
+            </pre>
+        </section>
+        <script >
+            let numA = 40
+            let numB = 16
+            let sum = numA + numB
+            document.getElementById("resultado").innerHTML = sum
+        </script>
+    </body>
+</html>
